@@ -6,7 +6,7 @@ const options = {
   url: 'https://transfermarket.p.rapidapi.com/clubs/list-by-competition',
   params: {id: 'BRA1'},
   headers: {
-    'X-RapidAPI-Key': '5066b07939msh7839d36fa73ade3p17678cjsn19f6aebb0a32',
+    'X-RapidAPI-Key': '4f66dcfc14msh5317e231b13bee6p1ab70cjsn606a1d00e756',
     'X-RapidAPI-Host': 'transfermarket.p.rapidapi.com'
   }
 };
@@ -39,7 +39,7 @@ async function clubes(){
     url: 'https://transfermarket.p.rapidapi.com/clubs/get-squad',
     params: {id: club3[Math.floor(Math.random() * club3.length)] , saison_id: '2022'},
     headers: {
-      'X-RapidAPI-Key': '5066b07939msh7839d36fa73ade3p17678cjsn19f6aebb0a32',
+      'X-RapidAPI-Key': '4f66dcfc14msh5317e231b13bee6p1ab70cjsn606a1d00e756',
       'X-RapidAPI-Host': 'transfermarket.p.rapidapi.com'
     }
   };
@@ -74,7 +74,7 @@ async function clubes(){
             url: 'https://transfermarket.p.rapidapi.com/players/get-transfer-history',
             params: {id: joga3[Math.floor(Math.random() * joga3.length)]},
             headers: {
-              'X-RapidAPI-Key': '5066b07939msh7839d36fa73ade3p17678cjsn19f6aebb0a32',
+              'X-RapidAPI-Key': '4f66dcfc14msh5317e231b13bee6p1ab70cjsn606a1d00e756',
               'X-RapidAPI-Host': 'transfermarket.p.rapidapi.com'
             }
           };
